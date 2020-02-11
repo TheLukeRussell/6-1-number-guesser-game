@@ -16,7 +16,7 @@ import random
 
 numberOfGuesses = 0
 name = input(f'\n{bcolors.FAIL} What is your name? {bcolors.ENDC}')
-print(f'\n {bcolors.FAIL}What number would you like to choose? {bcolors.ENDC}')
+print(f'\n {bcolors.FAIL}Between 1-100, what number would you like to choose? {bcolors.ENDC}')
 number = input()
 print(f'{bcolors.OKBLUE}\n So ' + name + ',' + ' you chose the number ' + number + '. Let\'s get started!')
 number = int(number)
