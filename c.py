@@ -47,6 +47,7 @@ while numberOfGuesses < 10:
 
 if guess == number:
     numberOfGuesses = str(numberOfGuesses)
+    print(guess)
     print(name + ', ' + 'The computer was able to guess your number in ' + numberOfGuesses + ' guesses')
 
 if guess != number:
